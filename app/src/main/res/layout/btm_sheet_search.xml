@@ -9,28 +9,24 @@
         android:id="@+id/et_search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:drawableStart="@drawable/ic_search"
-        app:layout_constraintStart_toStartOf="parent"
-        android:hint="Search for cities"
-        android:fontFamily="@font/lato_bold"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:textColor="@color/black"
+        android:layout_marginBottom="16dp"
+        android:drawableStart="@drawable/ic_search"
         android:drawablePadding="16dp"
+        android:fontFamily="@font/lato_bold"
+        android:hint="Search for cities"
+        android:textColor="@color/black"
         android:textColorHint="@color/black"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="0dp"
-        android:layout_height="300dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/et_search"
-        app:layout_constraintVertical_bias="0.0"
-        tools:itemCount="8"
-        tools:listitem="@layout/item_search" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck"
+        android:imeOptions="actionSearch"
+        android:inputType="text"/>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

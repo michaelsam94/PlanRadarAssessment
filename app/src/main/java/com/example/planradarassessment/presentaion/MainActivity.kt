@@ -1,8 +1,11 @@
-package com.example.planradarassessment
+package com.example.planradarassessment.presentaion
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.planradarassessment.R
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

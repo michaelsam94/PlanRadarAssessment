@@ -99,14 +99,15 @@
                         android:textColor="@color/black"/>
 
                     <TextView
+                        android:id="@+id/tv_condition"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/primary"
-                        android:textSize="24sp"
+                        android:layout_weight="1"
                         android:fontFamily="@font/lato_bold"
                         android:text="Cloudy"
-                        android:layout_weight="1"
-                        android:textAlignment="viewEnd"/>
+                        android:textAlignment="viewEnd"
+                        android:textColor="@color/primary"
+                        android:textSize="24sp" />
 
                 </LinearLayout>
 
@@ -127,14 +128,15 @@
                         android:textColor="@color/black"/>
 
                     <TextView
+                        android:id="@+id/tv_temp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/primary"
-                        android:textSize="24sp"
+                        android:layout_weight="1"
                         android:fontFamily="@font/lato_bold"
                         android:text="20 C"
-                        android:layout_weight="1"
-                        android:textAlignment="viewEnd"/>
+                        android:textAlignment="viewEnd"
+                        android:textColor="@color/primary"
+                        android:textSize="24sp" />
 
                 </LinearLayout>
 
@@ -155,14 +157,15 @@
                         android:textColor="@color/black"/>
 
                     <TextView
+                        android:id="@+id/tv_humidity"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/primary"
-                        android:textSize="24sp"
+                        android:layout_weight="1"
                         android:fontFamily="@font/lato_bold"
                         android:text="45%"
-                        android:layout_weight="1"
-                        android:textAlignment="viewEnd"/>
+                        android:textAlignment="viewEnd"
+                        android:textColor="@color/primary"
+                        android:textSize="24sp" />
 
                 </LinearLayout>
 
@@ -185,14 +188,15 @@
                         android:textColor="@color/black"/>
 
                     <TextView
+                        android:id="@+id/tv_wind_speed"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/primary"
-                        android:textSize="24sp"
+                        android:layout_weight="1"
                         android:fontFamily="@font/lato_bold"
                         android:text="20 km/h"
-                        android:layout_weight="1"
-                        android:textAlignment="viewEnd"/>
+                        android:textAlignment="viewEnd"
+                        android:textColor="@color/primary"
+                        android:textSize="24sp" />
 
                 </LinearLayout>
 
@@ -207,6 +211,7 @@
 
 
     <TextView
+        android:id="@+id/tv_info_received"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"

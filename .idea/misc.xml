@@ -3,12 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.221875" />
         <entry key="app/src/main/res/drawable/bg_cities.xml" value="0.15" />
         <entry key="app/src/main/res/drawable/rect_gray_graidient.xml" value="0.1" />
         <entry key="app/src/main/res/layout/btm_sheet_search.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_cities.xml" value="0.4875491480996068" />
         <entry key="app/src/main/res/layout/fragment_details.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_history.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/fragment_history.xml" value="0.44536652835408025" />
         <entry key="app/src/main/res/layout/item_city.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/item_history.xml" value="0.33" />
         <entry key="app/src/main/res/layout/item_search.xml" value="0.14583333333333334" />
